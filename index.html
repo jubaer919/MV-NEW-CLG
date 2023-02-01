@@ -12,16 +12,19 @@
 
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form action="#" id="survey-form">
+    <form action="#" id="survey-form" >
 
-      <label for="name">Your name</label>
-      <input type="text" id="name">
+      <label for="name" id="name-label">Your name</label>
+      <input type="text" id="name" placeholder="Enter your name">
 
-      <label for="email"Your email>Your email</label>
-      <input type="email" id="email">
+      <label for="email"Your email id="email-label">Your email</label>
+      <input type="email" id="email" placeholder="Enter your email">
 
-      <label for="number">Your age</label>
-      <input type="number" id="number">
+      <label for="number" id="number-label">Your age</label>
+      <input type="number" id="number" min="1" max="100" placeholder="Age">
+
+      <label for="dropdown" id="dropdown-label">Dropdown</label>
+      <input type="select" id="dropdown">
     </form>
   </body>
 </html>
